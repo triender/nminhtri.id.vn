@@ -13,7 +13,23 @@ desktop.ini
 *.log
 .temp/
 .cache/
+urls.txt
 
 # Bản thảo chưa xuất bản
 content/**/drafts/*
 !content/**/drafts/README.md
+
+# Cấu hình máy chủ riêng tư
+deploy.config.json
+
+# Tệp xác thực máy tìm kiếm cá nhân
+google*.html
+
+# Tài liệu và ngữ cảnh nội bộ
+docs/
+CONTEXT.md
+.agents/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
