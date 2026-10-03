@@ -1,0 +1,22 @@
+[
+  {
+    "id": "all",
+    "label": "Tất cả bài viết"
+  },
+  {
+    "id": "algorithms",
+    "label": "Thuật toán"
+  },
+  {
+    "id": "technology",
+    "label": "Công nghệ"
+  },
+  {
+    "id": "standards",
+    "label": "Tiêu chuẩn kỹ thuật"
+  },
+  {
+    "id": "thinking",
+    "label": "Tư duy & nhận thức"
+  }
+]

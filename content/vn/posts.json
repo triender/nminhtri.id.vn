@@ -1,0 +1,125 @@
+[
+  {
+    "id": "mo-hinh-cau-hoi-dao-phu-va-he-qua-phan-thuc",
+    "title": "Mô hình câu hỏi đao phủ: Phân tích hành vi ngôn ngữ và hệ quả phản thực của sự bất động",
+    "summary": "Phân tích cấu trúc câu hỏi đao phủ dưới góc độ ngữ dụng học; đối chiếu bài toán của Foot và Williams; phân tích hệ quả phản thực, vòng lặp tự ứng nghiệm và các tình huống ứng dụng thực tế.",
+    "date": "2026-09-14",
+    "category": "thinking",
+    "badge": "Tư duy & nhận thức",
+    "read_time": "~12 phút đọc",
+    "word_count": 2750,
+    "word_count_text": "~2.750 từ",
+    "tags": [
+      "Tư duy phản biện",
+      "Hành vi ngôn ngữ",
+      "Hệ quả phản thực",
+      "Triết học đạo đức",
+      "Lý thuyết quyết định",
+      "Tâm lý học hành vi"
+    ],
+    "series": "critical-thinking",
+    "series_title": "Tư duy phản biện và giải cấu trúc ngụy biện",
+    "series_part": 2,
+    "series_total": 2
+  },
+  {
+    "id": "tu-duy-phan-bien-boc-tach-bay-tien-gia-dinh",
+    "title": "Tư duy phản biện: Nhận diện tiền giả định, bước nhảy ngoại suy và sự phóng chiếu đạo đức",
+    "summary": "Khảo sát tiền giả định từ Frege, Russell đến Karttunen; đối chiếu thực nghiệm Elizabeth Loftus; giải mã bẫy hòa hợp, bài toán xe goòng và quy trình phản biện siêu ngôn ngữ.",
+    "date": "2026-09-13",
+    "category": "thinking",
+    "badge": "Tư duy & nhận thức",
+    "read_time": "~22 phút đọc",
+    "word_count": 4444,
+    "word_count_text": "~4.444 từ",
+    "tags": [
+      "Tư duy phản biện",
+      "Tiền giả định",
+      "Tâm lý học nhận thức",
+      "Ngữ dụng học",
+      "Logic học",
+      "Triết học đạo đức"
+    ],
+    "series": "critical-thinking",
+    "series_title": "Tư duy phản biện và giải cấu trúc ngụy biện",
+    "series_part": 1,
+    "series_total": 2
+  },
+  {
+    "id": "co-che-ao-hoa-va-cac-cong-nghe-container",
+    "title": "Cơ chế ảo hóa và các công nghệ container: Từ Hypervisor, Linux Kernel đến Docker, Podman và MicroVM",
+    "summary": "Phân tích kiến trúc ảo hóa phần cứng (Type 1 & Type 2), cơ chế container qua các Linux Namespaces cốt lõi, cgroups v1/v2, OverlayFS, đối chiếu Docker, Podman, LXC, MicroVM (Firecracker) và gVisor.",
+    "date": "2026-09-06",
+    "category": "technology",
+    "badge": "Công nghệ",
+    "read_time": "~12 phút đọc",
+    "word_count": 3940,
+    "word_count_text": "~3.940 từ",
+    "tags": [
+      "Ảo hóa",
+      "Container",
+      "Docker",
+      "Podman",
+      "KVM",
+      "Linux Kernel",
+      "MicroVM",
+      "LXC"
+    ]
+  },
+  {
+    "id": "dinh-nghia-thuat-toan-va-phuong-phap-bieu-dien",
+    "title": "Thuật toán: Từ định nghĩa, cấu trúc đến giới hạn tính toán",
+    "summary": "Phân tích cấu trúc thuật toán qua 5 đặc tính Donald Knuth, định lý Böhm–Jacopini, phương pháp kiểm chứng bất biến vòng lặp, chiến lược thiết kế và giới hạn lý thuyết tính toán.",
+    "date": "2026-09-03",
+    "category": "algorithms",
+    "badge": "Thuật toán",
+    "read_time": "~9 phút đọc",
+    "word_count": 2574,
+    "word_count_text": "~2.574 từ",
+    "tags": [
+      "Thuật toán",
+      "Lý thuyết tính toán",
+      "Mã giả",
+      "Lưu đồ",
+      "Bất biến vòng lặp",
+      "Donald Knuth"
+    ]
+  },
+  {
+    "id": "do-phuc-tap-thuat-toan-va-giai-tich",
+    "title": "Độ phức tạp thuật toán: Bảng tra cứu thời gian và tính chất tiệm cận trong giải tích",
+    "summary": "Phân tích tính chất của Big-O qua giới hạn giải tích, bảng ước lượng kích thước dữ liệu N trong lập trình thi đấu, định lý Master và các quy tắc phân tích nhanh.",
+    "date": "2026-09-03",
+    "category": "algorithms",
+    "badge": "Thuật toán",
+    "read_time": "~8 phút đọc",
+    "word_count": 1215,
+    "word_count_text": "~1.215 từ",
+    "tags": [
+      "Thuật toán",
+      "Giải tích",
+      "Big-O",
+      "Hiệu năng",
+      "Toán học"
+    ]
+  },
+  {
+    "id": "wcag-va-cac-tieu-chuan-tiep-can-ky-thuat-so",
+    "title": "WCAG và các tiêu chuẩn tiếp cận kỹ thuật số: Lịch sử phát triển, nguyên tắc POUR và hướng dẫn kiểm toán",
+    "summary": "Tổng hợp lịch sử tiếp cận web từ 1990 đến WCAG 2.2, ma trận đối chiếu Section 508, EN 301 549, Thông tư 22/2023/TT-BTTTT, bảng tra cứu định lượng, khối trực quan và quy trình kiểm toán.",
+    "date": "2026-09-03",
+    "category": "standards",
+    "badge": "Tiêu chuẩn kỹ thuật",
+    "read_time": "~12 phút đọc",
+    "word_count": 3904,
+    "word_count_text": "~3.904 từ",
+    "tags": [
+      "Accessibility",
+      "WCAG",
+      "a11y",
+      "Section 508",
+      "UI/UX",
+      "Web Standards"
+    ]
+  }
+]

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="100%" height="100%" style="background: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; border-radius: 8px;">
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" fill="#0f172a" font-size="18" font-weight="700">So sánh kiến trúc các mô hình ảo hóa và cô lập phổ biến</text>
+  <text x="450" y="58" text-anchor="middle" fill="#64748b" font-size="13">Đối chiếu tầng cô lập, cơ chế chia sẻ nhân kernel và ranh giới bảo mật</text>
+
+  <!-- Column 1: Máy ảo (Hypervisor VM) -->
+  <g transform="translate(40, 85)">
+    <!-- Column Frame -->
+    <rect x="0" y="0" width="250" height="390" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" rx="8"/>
+    <rect x="0" y="0" width="250" height="42" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="1.5" rx="8" style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;"/>
+    <text x="125" y="26" text-anchor="middle" fill="#1e293b" font-size="14" font-weight="700">1. Máy ảo (Hypervisor VM)</text>
+
+    <!-- App Layer -->
+    <rect x="15" y="55" width="105" height="45" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+    <text x="67" y="78" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">App A</text>
+    <text x="67" y="92" text-anchor="middle" fill="#3b82f6" font-size="10">Bins / Libs</text>
+
+    <rect x="130" y="55" width="105" height="45" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+    <text x="182" y="78" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">App B</text>
+    <text x="182" y="92" text-anchor="middle" fill="#3b82f6" font-size="10">Bins / Libs</text>
+
+    <!-- Guest OS -->
+    <rect x="15" y="110" width="105" height="55" fill="#fee2e2" stroke="#ef4444" stroke-width="1.5" rx="4"/>
+    <text x="67" y="134" text-anchor="middle" fill="#991b1b" font-size="12" font-weight="600">Guest OS 1</text>
+    <text x="67" y="152" text-anchor="middle" fill="#b91c1c" font-size="10">Riêng Kernel</text>
+
+    <rect x="130" y="110" width="105" height="55" fill="#fee2e2" stroke="#ef4444" stroke-width="1.5" rx="4"/>
+    <text x="182" y="134" text-anchor="middle" fill="#991b1b" font-size="12" font-weight="600">Guest OS 2</text>
+    <text x="182" y="152" text-anchor="middle" fill="#b91c1c" font-size="10">Riêng Kernel</text>
+
+    <!-- Hypervisor -->
+    <rect x="15" y="180" width="220" height="50" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" rx="4"/>
+    <text x="125" y="202" text-anchor="middle" fill="#92400e" font-size="13" font-weight="700">Hypervisor / VMM</text>
+    <text x="125" y="218" text-anchor="middle" fill="#b45309" font-size="11">KVM, ESXi, Xen, QEMU</text>
+
+    <!-- Host OS -->
+    <rect x="15" y="245" width="220" height="45" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5" rx="4"/>
+    <text x="125" y="272" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">Host OS / Kernel</text>
+
+    <!-- Hardware -->
+    <rect x="15" y="305" width="220" height="45" fill="#e2e8f0" stroke="#64748b" stroke-width="1.5" rx="4"/>
+    <text x="125" y="332" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700">Phần cứng vật lý (Bare-metal)</text>
+
+    <!-- Evaluation footer -->
+    <text x="125" y="375" text-anchor="middle" fill="#dc2626" font-size="11" font-weight="600">Cô lập phần cứng • Khởi động vài chục giây</text>
+  </g>
+
+  <!-- Column 2: Container (Docker / Podman / LXC) -->
+  <g transform="translate(325, 85)">
+    <!-- Column Frame -->
+    <rect x="0" y="0" width="250" height="390" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" rx="8"/>
+    <rect x="0" y="0" width="250" height="42" fill="#dcfce7" stroke="#86efac" stroke-width="1.5" rx="8" style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;"/>
+    <text x="125" y="26" text-anchor="middle" fill="#166534" font-size="14" font-weight="700">2. Container (Docker/Podman)</text>
+
+    <!-- App Containers -->
+    <rect x="15" y="55" width="105" height="65" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+    <text x="67" y="82" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">Container A</text>
+    <text x="67" y="98" text-anchor="middle" fill="#2563eb" font-size="10">App 1 + Libs</text>
+    <text x="67" y="112" text-anchor="middle" fill="#64748b" font-size="9">Rootfs / Overlay2</text>
+
+    <rect x="130" y="55" width="105" height="65" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+    <text x="182" y="82" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">Container B</text>
+    <text x="182" y="98" text-anchor="middle" fill="#2563eb" font-size="10">App 2 + Libs</text>
+    <text x="182" y="112" text-anchor="middle" fill="#64748b" font-size="9">Rootfs / Overlay2</text>
+
+    <!-- Container Engine / OCI Runtime -->
+    <rect x="15" y="135" width="220" height="55" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5" rx="4"/>
+    <text x="125" y="157" text-anchor="middle" fill="#115e59" font-size="13" font-weight="700">Container Engine / OCI</text>
+    <text x="125" y="174" text-anchor="middle" fill="#0f766e" font-size="11">Podman, Docker, containerd, crun/runc</text>
+
+    <!-- Shared Host Linux Kernel -->
+    <rect x="15" y="205" width="220" height="85" fill="#fae8ff" stroke="#d946ef" stroke-width="1.5" rx="4"/>
+    <text x="125" y="228" text-anchor="middle" fill="#86198f" font-size="13" font-weight="700">Nhân Linux dùng chung (Shared Kernel)</text>
+    <text x="125" y="248" text-anchor="middle" fill="#a21caf" font-size="11">Linux Namespaces (PID, Net, Mnt, User...)</text>
+    <text x="125" y="266" text-anchor="middle" fill="#c026d3" font-size="11">Control Groups v2 (CPU, Memory, IO)</text>
+
+    <!-- Hardware -->
+    <rect x="15" y="305" width="220" height="45" fill="#e2e8f0" stroke="#64748b" stroke-width="1.5" rx="4"/>
+    <text x="125" y="332" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700">Phần cứng vật lý (Bare-metal)</text>
+
+    <!-- Evaluation footer -->
+    <text x="125" y="375" text-anchor="middle" fill="#16a34a" font-size="11" font-weight="600">Siêu nhẹ • Khởi động nhanh (mili-giây)</text>
+  </g>
+
+  <!-- Column 3: Ảo hóa vi mô & Sandbox (MicroVM / Sandbox) -->
+  <g transform="translate(610, 85)">
+    <!-- Column Frame -->
+    <rect x="0" y="0" width="250" height="390" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" rx="8"/>
+    <rect x="0" y="0" width="250" height="42" fill="#f3e8ff" stroke="#d8b4fe" stroke-width="1.5" rx="8" style="border-bottom-left-radius: 0; border-bottom-right-radius: 0;"/>
+    <text x="125" y="26" text-anchor="middle" fill="#6b21a8" font-size="14" font-weight="700">3. MicroVM &amp; Sandbox</text>
+
+    <!-- App MicroVMs -->
+    <rect x="15" y="55" width="105" height="45" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+    <text x="67" y="78" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">Lambda / App</text>
+    <text x="67" y="92" text-anchor="middle" fill="#3b82f6" font-size="10">Bins / Libs</text>
+
+    <rect x="130" y="55" width="105" height="45" fill="#dbeafe" stroke="#3b82f6" stroke-width="1.5" rx="4"/>
+    <text x="182" y="78" text-anchor="middle" fill="#1e40af" font-size="12" font-weight="600">Isolated Task</text>
+    <text x="182" y="92" text-anchor="middle" fill="#3b82f6" font-size="10">Bins / Libs</text>
+
+    <!-- Micro Kernel / Sentry -->
+    <rect x="15" y="110" width="105" height="55" fill="#fef2f2" stroke="#f87171" stroke-width="1.5" rx="4"/>
+    <text x="67" y="132" text-anchor="middle" fill="#991b1b" font-size="11" font-weight="600">Guest Kernel</text>
+    <text x="67" y="148" text-anchor="middle" fill="#dc2626" font-size="9">Linux tối giản</text>
+
+    <rect x="130" y="110" width="105" height="55" fill="#fef2f2" stroke="#f87171" stroke-width="1.5" rx="4"/>
+    <text x="182" y="132" text-anchor="middle" fill="#991b1b" font-size="11" font-weight="600">gVisor Sentry</text>
+    <text x="182" y="148" text-anchor="middle" fill="#dc2626" font-size="9">Userspace Kernel</text>
+
+    <!-- Micro-Hypervisor -->
+    <rect x="15" y="180" width="220" height="50" fill="#ede9fe" stroke="#8b5cf6" stroke-width="1.5" rx="4"/>
+    <text x="125" y="202" text-anchor="middle" fill="#5b21b6" font-size="13" font-weight="700">Tầng cô lập (VMM / Sandbox)</text>
+    <text x="125" y="218" text-anchor="middle" fill="#6d28d9" font-size="11">Firecracker (KVM) • gVisor (Host Kernel)</text>
+
+    <!-- Host OS -->
+    <rect x="15" y="245" width="220" height="45" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.5" rx="4"/>
+    <text x="125" y="272" text-anchor="middle" fill="#334155" font-size="12" font-weight="600">Host Linux Kernel</text>
+
+    <!-- Hardware -->
+    <rect x="15" y="305" width="220" height="45" fill="#e2e8f0" stroke="#64748b" stroke-width="1.5" rx="4"/>
+    <text x="125" y="332" text-anchor="middle" fill="#0f172a" font-size="13" font-weight="700">Phần cứng vật lý (Bare-metal)</text>
+
+    <!-- Evaluation footer -->
+    <text x="125" y="375" text-anchor="middle" fill="#7c3aed" font-size="11" font-weight="600">Cô lập tăng cường • Khởi động nhanh (&lt;125ms)</text>
+  </g>
+</svg>

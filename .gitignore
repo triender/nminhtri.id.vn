@@ -1,0 +1,19 @@
+# Tệp hệ điều hành
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Trình soạn thảo & IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Thư mục tạm & nhật ký
+*.log
+.temp/
+.cache/
+
+# Bản thảo chưa xuất bản
+content/**/drafts/*
+!content/**/drafts/README.md

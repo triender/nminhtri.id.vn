@@ -1,0 +1,32 @@
+{
+  "site_title": "Không gian chia sẻ cá nhân",
+  "site_subtitle": "Ghi chép kỹ thuật, góc suy ngẫm và thử nghiệm cá nhân",
+  "hero": {
+    "heading": "Một góc nhỏ để chia sẻ",
+    "subheading": "Nơi lưu giữ các bài viết kỹ thuật, góc suy ngẫm, kệ đồ và các thử nghiệm cá nhân.",
+    "btn_explore": "Khám phá bài viết",
+    "btn_contact": "Về tác giả và kết nối"
+  },
+  "principles_title": "Nguyên tắc và định hướng chia sẻ",
+  "principles": [
+    {
+      "title": "Tôn trọng quyền riêng tư",
+      "desc": "Không sử dụng cookie theo dõi, không thu thập dữ liệu cá nhân, không quảng cáo và tôn trọng quyền riêng tư của người dùng."
+    },
+    {
+      "title": "Trải nghiệm đọc tối giản",
+      "desc": "Giao diện chú trọng sự rõ ràng, tương phản dịu mắt và tối ưu hiển thị mượt mà trên mọi thiết bị."
+    },
+    {
+      "title": "Nội dung đa dạng",
+      "desc": "Không gian ghi lại các ghi chép công nghệ, góc suy nghĩ cá nhân và những bài học rút ra trong quá trình làm việc."
+    }
+  ],
+  "profile": {
+    "name": "Nguyễn Minh Trí",
+    "role": "Lập trình viên",
+    "bio": "Yêu thích lập trình, đọc sách, tìm hiểu nguyên lý kỹ thuật và tự tay xây dựng những công cụ hữu ích.",
+    "channels_title": "Kênh liên hệ trực tiếp",
+    "email": "nguyenminhtri.developer@gmail.com"
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "algorithm-definition-and-representation-methods",
+    "title": "Algorithm definition: 5 core characteristics, representation methods, and structural theorem",
+    "summary": "Comprehensive analysis of algorithms through Donald Knuth's 5 criteria, distinguishing from programs and heuristics, 4 representation methods, loop invariants, and space-time tradeoffs.",
+    "date": "2026-09-03",
+    "category": "algorithms",
+    "badge": "Algorithms",
+    "read_time": "~10 min read",
+    "word_count": 1085,
+    "word_count_text": "~1,085 words",
+    "tags": [
+      "Algorithms",
+      "Computation Theory",
+      "Pseudocode",
+      "Flowchart",
+      "Loop Invariants",
+      "Donald Knuth"
+    ]
+  },
+  {
+    "id": "computational-complexity-and-calculus",
+    "title": "Computational complexity: Execution time cheat sheet and asymptotic limits in calculus",
+    "summary": "Understanding Big-O notation through calculus limits as N approaches infinity, practical lookup tables for operations per second, and loop analysis.",
+    "date": "2026-09-03",
+    "category": "algorithms",
+    "badge": "Algorithms",
+    "read_time": "~8 min read",
+    "word_count": 536,
+    "word_count_text": "~536 words",
+    "tags": [
+      "Algorithms",
+      "Calculus",
+      "Big-O",
+      "Performance",
+      "Mathematics"
+    ]
+  },
+  {
+    "id": "wcag-and-digital-accessibility-standards",
+    "title": "WCAG and digital accessibility standards: Historical evolution, POUR principles, and audit guidelines",
+    "summary": "Comprehensive analysis of web accessibility evolution from 1990 to WCAG 2.2, comparing Section 508, EN 301 549, visual side-by-side compliance playgrounds, and audit workflows.",
+    "date": "2026-09-03",
+    "category": "standards",
+    "badge": "Engineering Standards",
+    "read_time": "~12 min read",
+    "word_count": 2062,
+    "word_count_text": "~2,062 words",
+    "tags": [
+      "Accessibility",
+      "WCAG",
+      "a11y",
+      "Section 508",
+      "UI/UX",
+      "Web Standards"
+    ]
+  }
+]

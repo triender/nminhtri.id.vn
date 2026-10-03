@@ -1,0 +1,32 @@
+{
+  "site_title": "Personal space",
+  "site_subtitle": "Technical notes, reflections, and personal experiments",
+  "hero": {
+    "heading": "A quiet space to write and share",
+    "subheading": "A personal notebook documenting technical notes, reflections, projects, and personal experiments.",
+    "btn_explore": "Explore articles",
+    "btn_contact": "About & connect"
+  },
+  "principles_title": "Principles & ethos",
+  "principles": [
+    {
+      "title": "Respecting privacy",
+      "desc": "Zero tracking cookies, zero personal data collection, zero advertisements, and zero telemetry scripts."
+    },
+    {
+      "title": "Serene reading experience",
+      "desc": "Default light theme, WCAG 2.2 AA compliant contrast, dynamic font scaling tailored for all screen sizes."
+    },
+    {
+      "title": "Diverse topics",
+      "desc": "Documenting technology notes, personal reflections, and lessons learned through hands-on work."
+    }
+  ],
+  "profile": {
+    "name": "Nguyen Minh Tri",
+    "role": "Developer",
+    "bio": "Enjoys programming, thoughtful reading, exploring technical foundations, and building useful tools.",
+    "channels_title": "Direct channels",
+    "email": "nguyenminhtri.developer@gmail.com"
+  }
+}

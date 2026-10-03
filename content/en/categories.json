@@ -1,0 +1,22 @@
+[
+  {
+    "id": "all",
+    "label": "All articles"
+  },
+  {
+    "id": "algorithms",
+    "label": "Algorithms"
+  },
+  {
+    "id": "technology",
+    "label": "Technology"
+  },
+  {
+    "id": "standards",
+    "label": "Engineering standards"
+  },
+  {
+    "id": "thinking",
+    "label": "Thinking & cognition"
+  }
+]
